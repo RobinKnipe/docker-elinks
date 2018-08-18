@@ -10,4 +10,4 @@ RUN apk update \
 
 USER 31345
 
-#  && apk add zlib bzip2 xz openssl pkgconf expat perl-regexp-tr rxvt-unicode
+ENTRYPOINT ["sleep", "1200"]
